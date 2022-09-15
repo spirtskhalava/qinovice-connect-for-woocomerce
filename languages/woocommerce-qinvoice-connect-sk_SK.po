@@ -1,0 +1,342 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Q-invoice Connect\n"
+"POT-Creation-Date: 2015-02-14 12:14+0100\n"
+"PO-Revision-Date: 2015-02-15 16:31+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/class-wcqc-export.php:324
+msgid "Invoice generated."
+msgstr "Faktúra vygenerovaná."
+
+#: ../includes/class-wcqc-export.php:326
+msgid "Quote generated."
+msgstr "Cenová ponuka vygenerovaná."
+
+#: ../includes/class-wcqc-export.php:328
+msgid "Order confirmation generated."
+msgstr "Potvrdenie objednávky vygenerované."
+
+#: ../includes/class-wcqc-export.php:331
+msgid "Uhoh. Something went wrong."
+msgstr "Niekde sa stala chyba."
+
+#: ../includes/class-wcqc-export.php:346 ../includes/class-wcqc-export.php:356
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nemáte dostatočné práva pre prístup na túto stránku."
+
+#: ../includes/class-wcqc-export.php:351
+msgid "Missing parameters."
+msgstr "Chýbajúce parametre."
+
+#: ../includes/class-wcqc-export.php:370
+msgid "close this window."
+msgstr "zavrieť toto okno."
+
+#: ../includes/class-wcqc-settings.php:32
+#: ../includes/class-wcqc-settings.php:33
+msgid "Q-invoice connect"
+msgstr "Q-invoice connect"
+
+#: ../includes/class-wcqc-settings.php:45
+msgid "Q-invoice"
+msgstr "Q-invoice"
+
+#: ../includes/class-wcqc-settings.php:54
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: ../includes/class-wcqc-settings.php:56
+msgid "Create an account"
+msgstr "Vytvoriť účet"
+
+#: ../includes/class-wcqc-settings.php:71
+msgid "Get support"
+msgstr "Podpora"
+
+#: ../includes/class-wcqc-settings.php:84
+msgid "WooCommerce q-invoice connect"
+msgstr "WooCommerce q-invoice connect"
+
+#: ../includes/class-wcqc-settings.php:125
+msgid "General settings"
+msgstr "Všeobecné nastavenia"
+
+#: ../includes/class-wcqc-settings.php:132
+msgid "API url"
+msgstr "API url"
+
+#: ../includes/class-wcqc-settings.php:140
+#, php-format
+msgid "eg. %s"
+msgstr "napr. %s"
+
+#: ../includes/class-wcqc-settings.php:146
+msgid "API username"
+msgstr "API používateľské meno"
+
+#: ../includes/class-wcqc-settings.php:154
+msgid "Your API username"
+msgstr "Vaše API používateľské meno"
+
+#: ../includes/class-wcqc-settings.php:160
+msgid "API password"
+msgstr "API heslo"
+
+#: ../includes/class-wcqc-settings.php:168
+msgid "Your API password"
+msgstr "Vaše API heslo"
+
+#: ../includes/class-wcqc-settings.php:174
+msgid "Document type"
+msgstr "Typ dokumentu"
+
+#: ../includes/class-wcqc-settings.php:182
+msgid "Set the document type here"
+msgstr "Tu nastavte typ dokumentu"
+
+#: ../includes/class-wcqc-settings.php:184
+msgid "Invoice"
+msgstr "Faktúra"
+
+#: ../includes/class-wcqc-settings.php:185
+msgid "Quote"
+msgstr "Cenová ponuka"
+
+#: ../includes/class-wcqc-settings.php:186
+msgid "Order confirmation"
+msgstr "Potvrdenie objednávky"
+
+#: ../includes/class-wcqc-settings.php:187
+msgid "Recurring (monthly)"
+msgstr "Opakujúca sa (mesačne)"
+
+#: ../includes/class-wcqc-settings.php:188
+msgid "Recurring (quarterly)"
+msgstr "Opakujúca sa (kvartálne)"
+
+#: ../includes/class-wcqc-settings.php:189
+msgid "Recurring (yearly)"
+msgstr "Opakujúca sa (ročne)"
+
+#: ../includes/class-wcqc-settings.php:197
+msgid "Layout code"
+msgstr "Kód štýlu"
+
+#: ../includes/class-wcqc-settings.php:205
+msgid "Your q-invoice layout code"
+msgstr "Váš kód štýlu"
+
+#: ../includes/class-wcqc-settings.php:211
+msgid "Document remark"
+msgstr "Poznámka na dokumente"
+
+#: ../includes/class-wcqc-settings.php:219
+msgid ""
+"eg. Your order: {order_id}. Your payment method: {method}. (you can also use "
+"{order_number} and {order_date}). Use {customer_note} for the customer note"
+msgstr ""
+"napr Vaša objednávka: {order_id}. Váš spôsob platby: {method}. (taktiež "
+"môžete použiť {order_number} a {order_date}). Použite {customer_note} pre "
+"poznámku od klienta"
+
+#: ../includes/class-wcqc-settings.php:225
+msgid "Paid remark"
+msgstr "Poznámka o zaplatení"
+
+#: ../includes/class-wcqc-settings.php:233
+msgid "eg. Your payment has been received. Via {method}"
+msgstr "napr. Vaša platba bola prijáta. Cez {method}"
+
+#: ../includes/class-wcqc-settings.php:239
+msgid "Document tag"
+msgstr "Značka (tag) dokumentu"
+
+#: ../includes/class-wcqc-settings.php:247
+msgid ""
+"eg. Your webshop name (also accepted: {order_number}, {method} and "
+"{order_date}"
+msgstr ""
+"napr. Váš eshop (taktiež akceptované: {order_number}, {method} a {order_date}"
+
+#: ../includes/class-wcqc-settings.php:253
+msgid "Send request on:"
+msgstr "Poslať požiadavku:"
+
+#: ../includes/class-wcqc-settings.php:261
+msgid "Every new order"
+msgstr "Každá nová objednávka"
+
+#: ../includes/class-wcqc-settings.php:262
+msgid "After each succesfull payment"
+msgstr "Po každej úspešnej platbe"
+
+#: ../includes/class-wcqc-settings.php:263
+msgid "When order is marked completed"
+msgstr "Keď je objednávka označená ako kompletná"
+
+#: ../includes/class-wcqc-settings.php:264
+msgid "Disable automatic invoicing"
+msgstr "Vypnúť automatické faktúrovanie"
+
+#: ../includes/class-wcqc-settings.php:266
+msgid "When to send invoice/quote request to q-invoice?"
+msgstr "Kedy poslať faktúru/cenovú ponuku do q-invoice?"
+
+#: ../includes/class-wcqc-settings.php:272
+msgid "After request:"
+msgstr "Po požiadavke:"
+
+#: ../includes/class-wcqc-settings.php:280
+msgid "Save document as draft"
+msgstr "Uložiť dokument ako koncept"
+
+#: ../includes/class-wcqc-settings.php:281
+msgid "Finalize and save PDF"
+msgstr "Dokočiť a uložiť PDF"
+
+#: ../includes/class-wcqc-settings.php:282
+msgid "Finalize and send email with PDF attached to customer"
+msgstr "Dokončiť a poslať email s priloženým PDF zákazníkovi"
+
+#: ../includes/class-wcqc-settings.php:284
+msgid "What to do after request has been sent?"
+msgstr "Čo robiť, keď požiadavka bola odoslaná?"
+
+#: ../includes/class-wcqc-settings.php:290
+msgid "Save relation:"
+msgstr "Uložiť kontakt:"
+
+#: ../includes/class-wcqc-settings.php:298
+msgid "No"
+msgstr "Nie"
+
+#: ../includes/class-wcqc-settings.php:299
+msgid "Yes"
+msgstr "Áno"
+
+#: ../includes/class-wcqc-settings.php:301
+msgid "Automatically save or update relation details?"
+msgstr "Automaticky uložiť alebo aktualizovať detaily kontaktu?"
+
+#: ../includes/class-wcqc-settings.php:308
+msgid "Coupon vat"
+msgstr "DPH z poukazov"
+
+#: ../includes/class-wcqc-settings.php:316
+msgid "eg. 21 (without %)"
+msgstr "napr. 20 (bez %)"
+
+#: ../includes/class-wcqc-settings.php:322
+msgid "Default ledger account"
+msgstr "Predvolená účtovná kniha"
+
+#: ../includes/class-wcqc-settings.php:330
+msgid "The default ledger account for your revenue. eg. 8000"
+msgstr "Predvolená položka účtovnej knihy pre Váš príjem, napr. 8000"
+
+#: ../includes/class-wcqc-settings.php:338
+msgid "Calculation method:"
+msgstr "Spôsob kalkulácie:"
+
+#: ../includes/class-wcqc-settings.php:346
+msgid "Prices <strong>including VAT</strong> are leading"
+msgstr "Ceny <strong>vrátane DPH</strong> sú smerodajné"
+
+#: ../includes/class-wcqc-settings.php:347
+msgid "Prices <strong>excluding VAT</strong> are leading"
+msgstr "Ceny <strong>bez DPH</strong> sú smerodajné"
+
+#: ../includes/class-wcqc-settings.php:349
+msgid "Set the preferred calculation method"
+msgstr "Nastaviť preferovaný spôsob kalkulácie"
+
+#: ../includes/class-wcqc-settings.php:355
+msgid "Invoice date:"
+msgstr "Dátum fakturácie:"
+
+#: ../includes/class-wcqc-settings.php:363
+msgid "Use order date for invoice date"
+msgstr "Použiť dátum objednávky ako dátum fakturácie"
+
+#: ../includes/class-wcqc-settings.php:364
+msgid "Use date of sending request"
+msgstr "Použiť dátum poslania požiadavky"
+
+#: ../includes/class-wcqc-settings.php:366
+msgid "Which date should be used as invoice date?"
+msgstr "Ktorý dátum má býž použitý ako dátum fakturácie."
+
+#: ../includes/class-wcqc-settings.php:381
+msgid "Exclude payment methods:"
+msgstr "Vylúčiť spôsoby úhrady:"
+
+#: ../includes/class-wcqc-settings.php:389
+msgid ""
+"Exclude certain payment methods. For selected methods no request will be "
+"sent."
+msgstr ""
+"Vylúčiť niektoré spôsoby úhrady. Pre zvolené spôsoby nebudú odoslané žiadne "
+"požiadavky."
+
+#: ../includes/class-wcqc-writepanels.php:71
+msgid "Send to q-invoice.com"
+msgstr "Poslať na q-invoice.com"
+
+#: ../includes/class-wcqc-writepanels.php:81
+msgid "New invoice"
+msgstr "Nová faktúra"
+
+#: ../includes/class-wcqc-writepanels.php:82
+msgid "New quote"
+msgstr "Nová cenová ponuka"
+
+#: ../includes/class-wcqc-writepanels.php:83
+msgid "New order confirmation"
+msgstr "Nové potvrdenie objednávky"
+
+#: ../includes/class-wcqc-writepanels.php:87
+msgid "Recurring monthly"
+msgstr "Opakujúca sa mesačne"
+
+#: ../includes/class-wcqc-writepanels.php:88
+msgid "Recurring quarterly"
+msgstr "Opakujúca sa kvartálne"
+
+#: ../includes/class-wcqc-writepanels.php:89
+msgid "Recurring yearly"
+msgstr "Opakujúca sa ročne"
+
+#: ../includes/class-wcqc-writepanels.php:103
+#: ../includes/class-wcqc-writepanels.php:104
+msgid "Create invoices"
+msgstr "Vytvoriť faktúry"
+
+#: ../includes/class-wcqc-writepanels.php:106
+#: ../includes/class-wcqc-writepanels.php:107
+msgid "Create quotes"
+msgstr "Vytvoriť cenové ponuky"
+
+#: ../includes/class-wcqc-writepanels.php:109
+#: ../includes/class-wcqc-writepanels.php:110
+msgid "Create order confimations"
+msgstr "Vytvoriť potvrdenia objednávok"
+
+#: ../woocommerce-qinvoice-connect.php:103
+#, php-format
+msgid ""
+"WooCommerce Qinvoice Connect requires %sWooCommerce%s to be installed & "
+"activated!"
+msgstr ""
+"WooCommerce Qinvoice Connect požaduje %sWooCommerce%s nainštalovaný a "
+"aktivovaný!"
